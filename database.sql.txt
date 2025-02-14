@@ -1,0 +1,15 @@
+Create a database called siwes_db using wamp
+
+and run this query
+CREATE TABLE applications (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    school VARCHAR(255) NOT NULL,
+    department VARCHAR(255) NOT NULL,
+    cgpa DECIMAL(3,2) NOT NULL,
+    age INT NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    siwes_type VARCHAR(50) NOT NULL,
+    reason VARCHAR(255) NOT NULL,
+    submission_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
